@@ -1,0 +1,54 @@
+body {
+    background-color: rgb(165, 36, 169);
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #2b050d;
+}
+
+.home {
+    min-height:50vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 40px;
+    padding: 50px;
+}
+
+.home h1 span {
+    color: #ffd966;
+}
+
+.home h2 {
+    color: #f6cdee;
+    margin-bottom: 15px;
+}
+
+.home p {
+    margin-bottom: 15px;
+}
+
+.pfp {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center 30%;
+    flex-shrink: 0;
+}
+
+.content {
+    max-width: 900px;
+    text-align: left;
+}
+
+.welcome {
+    color: #f6cdee;
+    font-size: 15px;
+    letter-spacing: 5px;
+}
+
+.home h1 {
+    font-size: 42px;
+    margin-left: 15px 0;
+}
+
