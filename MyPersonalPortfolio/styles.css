@@ -3,13 +3,17 @@ body {
     margin: 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #2b050d;
+    min-height: 100vh;
+    display:flex;
+    flex-direction: column;
 }
 
 .home {
+    flex:1;
     min-height:50vh;
     display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
+    align-items: center;
+    justify-content: center;
     gap: 40px;
     padding: 50px;
 }
@@ -56,9 +60,10 @@ body {
     background-color: #2b050d;
     color: #f6cdee;
     text-align: center;
-    padding: 20px;
+    padding: 15px;
     font-size: 14px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 
 .footer p {
     margin: 0;
